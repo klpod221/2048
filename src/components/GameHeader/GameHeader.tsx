@@ -27,7 +27,7 @@ export const GameHeader = () => {
         <GameDescription />
       </div>
       <div className="actions">
-        {/* <ScoresContainer /> */}
+        <ScoresContainer />
         <Button
           id="restartGameBtn"
           onClick={(_) => dispatch({ type: "restart" })}
