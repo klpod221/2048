@@ -187,7 +187,8 @@ export const createRandomTile = (tiles: Tile[]): Tile => {
     coordinates = getCoordinates(position);
   }
 
-  const value: Value = Math.random() <= 0.2 ? 4 : 2;
+  // 5% chance to get 4 instead of 2.
+  const value: Value = Math.random() < 0.05 ? 4 : 2;
 
   return {
     id: getNextId(tiles),
