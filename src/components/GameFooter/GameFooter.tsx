@@ -34,31 +34,10 @@ const GameRules = () => {
   );
 };
 
-const LearnMore = () => {
-  return (
-    <Section title="LEARN MORE">
-      <p>
-        This app is inspired by{" "}
-        <a href="https://play2048.co/">https://play2048.co/</a>. If you want to
-        learn more about the project tech stack or see the code, visit the&nbsp;
-        <a
-          href="https://github.com/klpod221/2048"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Github repository
-        </a>
-        .
-      </p>
-    </Section>
-  );
-};
-
 export const GameFooter = () => {
   return (
     <div>
       <GameRules />
-      <LearnMore />
     </div>
   );
 };

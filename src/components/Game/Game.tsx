@@ -118,7 +118,7 @@ const Game = () => {
           <GameHeader />
           <Board />
         </div>
-        {/* <GameFooter /> */}
+        <GameFooter />
       </div>
     </GameProvider>
   );
